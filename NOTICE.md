@@ -22,4 +22,4 @@ This repository combines code, data and fonts from several sources under differe
 
 ## Code
 
-The editor is adapted from [skishore/makemeahanzi](https://github.com/skishore/makemeahanzi) and [MadLadSquad/make-me-a-hanzi-tool](https://github.com/MadLadSquad/make-me-a-hanzi-tool). Neither upstream project states a license for its code.
+The editor is adapted from [skishore/makemeahanzi](https://github.com/skishore/makemeahanzi) and [MadLadSquad/make-me-a-hanzi-tool](https://github.com/MadLadSquad/make-me-a-hanzi-tool). Neither upstream project states a license for its code. Third-party libraries vendored under `client/external/` and `lib/external/` are not listed here; each carries its own license header.
