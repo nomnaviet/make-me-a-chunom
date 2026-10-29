@@ -18,7 +18,7 @@ This repository combines code, data and fonts from several sources under differe
 |---|---|
 | `public/arphic/` — Arphic PL fonts | Arphic Public License ([`APL`](APL)) |
 | `public/nom-fonts/BabelStoneHan.ttf` — [BabelStone Han](https://www.babelstone.co.uk/Fonts/Han.html) | Original Arphic Public License |
-| `public/nom-fonts/NomNaTong-*` — [NomNaTong](https://github.com/nomfoundation/font), Vietnamese Nôm Preservation Foundation | MIT |
+| `public/nom-fonts/NomNaTong-*` — [NomNaTong](https://github.com/nomfoundation/font), Vietnamese Nôm Preservation Foundation | MIT ([`public/nom-fonts/NomNaTong-LICENSE.txt`](public/nom-fonts/NomNaTong-LICENSE.txt)) |
 | `public/nom-fonts/Plangothic*` — [Plangothic](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project) | SIL Open Font License 1.1 ([`public/nom-fonts/Plangothic-OFL.txt`](public/nom-fonts/Plangothic-OFL.txt)) |
 
 ## Code
