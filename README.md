@@ -128,4 +128,4 @@ The exported data is compatible with [hanzi-writer](https://github.com/chanind/h
 
 ## License
 
-There is no single license for this repository. `dictionary.txt` is LGPL-3.0-or-later, `graphics.txt` and the Arphic fonts are under the Arphic Public License, and the bundled Nôm fonts and Unihan data keep their own terms. See [NOTICE.md](NOTICE.md) for each data file and font, including one file whose origin is still unconfirmed. The editor code itself has no license. Third-party libraries vendored under `client/external/` and `lib/external/` carry their own license headers.
+There is no single license for this repository. `dictionary.txt` is LGPL-3.0-or-later, `graphics.txt` and the Arphic fonts are under the Arphic Public License, and the bundled Nôm fonts and Unihan data keep their own terms. See [NOTICE.md](NOTICE.md) for each data file and font, including one file whose origin is still unconfirmed. The editor code itself has no license. Third-party libraries vendored under `client/external/` and `lib/external/` each include their own license, in a source header or a LICENSE file beside the code.
