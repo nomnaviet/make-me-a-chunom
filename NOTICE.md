@@ -10,7 +10,7 @@ This repository combines code, data and fonts from several sources under differe
 | `public/graphics.txt` | Arphic PL KaitiM GB and Arphic PL UKai, via makemeahanzi | Arphic Public License ([`APL`](APL), see [`COPYING`](COPYING)) |
 | `public/unihan/` | Unicode, Inc. | Unicode License ([`public/unihan/LICENSE`](public/unihan/LICENSE)) |
 | `public/zydeo.txt` | Origin not recorded; no code in this repository uses it | Unknown — under review |
-| `public/cjklib/*` except the two Shanghainese files | [CJKlib](https://github.com/cburgmer/cjklib) | LGPL-3.0-or-later ([`LGPL`](LGPL)), as each file's header states |
+| `public/cjklib/*` except the two Shanghainese files | [CJKlib](https://github.com/cburgmer/cjklib) | LGPL-3.0-or-later ([`LGPL`](LGPL)), as stated in the headers of the `.csv` files; the `.sql` files are the same tables and carry no header |
 | `public/cjklib/charactershanghaineseipa.*`, `public/cjklib/shanghaineseipasyllables.*` | Kellen Parker and Allan Simon (2010), [sinoglot.com](http://www.sinoglot.com/wu/tools/data/), via CJKlib | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
 
 ## Fonts
