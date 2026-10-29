@@ -9,7 +9,8 @@ This repository combines code, data and fonts from several sources under differe
 | `public/dictionary.txt` | [Unihan](https://www.unicode.org/charts/unihan.html) and [CJKlib](https://github.com/cburgmer/cjklib), via [makemeahanzi](https://github.com/skishore/makemeahanzi) | LGPL-3.0-or-later ([`LGPL`](LGPL), see [`COPYING`](COPYING)) |
 | `public/graphics.txt` | Arphic PL KaitiM GB and Arphic PL UKai, via makemeahanzi | Arphic Public License ([`APL`](APL), see [`COPYING`](COPYING)) |
 | `public/unihan/` | Unicode, Inc. | Unicode License ([`public/unihan/LICENSE`](public/unihan/LICENSE)) |
-| `public/cjklib/` | [CJKlib](https://github.com/cburgmer/cjklib) | See the CJKlib project |
+| `public/cjklib/*` except the two Shanghainese files | [CJKlib](https://github.com/cburgmer/cjklib) | LGPL-3.0-or-later ([`LGPL`](LGPL)), as each file's header states |
+| `public/cjklib/charactershanghaineseipa.*`, `public/cjklib/shanghaineseipasyllables.*` | Kellen Parker and Allan Simon (2010), [sinoglot.com](http://www.sinoglot.com/wu/tools/data/), via CJKlib | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
 
 ## Fonts
 
