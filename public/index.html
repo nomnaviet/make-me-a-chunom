@@ -527,7 +527,13 @@
       document.getElementById('info-unicode').textContent = 'U+' + unicodeHex;
       document.getElementById('info-unicode').href = 'https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=' + unicodeHex;
       document.getElementById('info-strokes').textContent = data.strokes.length;
-      document.getElementById('info-source').textContent = isExtensionB ? 'Custom Nôm' : 'Make Me a Hanzi';
+      // "draft": true = drafted by the nomstroke model, not yet checked by a person.
+      // source "nomstroke" without it = a person's stroke order, outline recut by the model.
+      document.getElementById('info-source').textContent = data.draft
+        ? 'AI draft (not yet checked by a person)'
+        : data.source === 'nomstroke'
+          ? 'Hand-made stroke order, AI-cut outline'
+          : isExtensionB ? 'Custom Nôm' : 'Make Me a Hanzi';
 
       document.getElementById('status').className = 'status success';
       document.getElementById('status').textContent = `Loaded: ${char} (${data.strokes.length} strokes)`;
